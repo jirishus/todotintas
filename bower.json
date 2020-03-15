@@ -1,0 +1,22 @@
+{
+  "name": "todo-tintas",
+  "version": "0.0.0",
+  "authors": [
+    "jirishus <jirishus@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.1"
+  },
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "jquery-cycle2": "~2.1.6"
+  }
+}

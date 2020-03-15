@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo Tintas</title>
+ 
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="bower_components/foundation/css/foundation.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles/stylesheets/screen.css" type="text/css" />
+
+
+</head>
+<div id="topAnchor"></div>
+<body>
+
+
+<header class="main-nav">
+    <div class="row">
+        <a href="#topAnchor" class="topAnchor">
+            <img class="main-logo" src="images/logo.jpg"/> 
+        </a>
+    </div>
+    <div class="row">
+        
+        <div class="medium-10 medium-offset-1 columns parent_wrap">
+        <ul class="navigation">
+            <li><a class="first-link" href="#sobre"><i class="fa fa-tint fa-2x"></i> Sobre Nosotros</a></li>
+            <li><a class="second-link" href="#productos"><i class="fa fa-tint fa-2x"></i> Productos Y Servicios</a></li>
+            <li><a class="third-link" href="#consejos"><i class="fa fa-tint fa-2x"></i> Consejos Utiles</a></li>
+            <li><a class="fourth-link" href="#contacto"><i class="fa fa-tint fa-2x"></i> Contactanos</a></li>
+        </ul>
+        </div>
+        
+
+    </div>
+</header>
+
+
+<!--
+<div class="cycle-slideshow" 
+    data-cycle-timeout="4000" 
+    data-cycle-speed="500" 
+    data-cycle-slides="> div"
+    data-cycle-pager=".pagers"
+    data-cycle-pager-template="<a href='#'></a>"
+    >
+    <div class="slide first"> 
+    </div>
+    
+    <div class="slide second">  
+    </div>
+    <div class="slide third">
+    </div>
+    
+    <div class="slide fourth">
+    </div>
+    
+</div>
+-->
+
+<div class="buffer"></div>
+
+<div class="mobile_hero">
+    <img src="images/mobile1.jpg" />
+</div>
+
+<div class="cycle-slideshow" data-cycle-timeout="4000"
+    data-cycle-pagers=".pagers" data-cycle-pager-template="<a href='#'></a>"
+    data-cycle-fx=scrollHorz
+    >
+    
+    <img src="images/customer3.jpg" />
+    <img src="images/cover.jpg" />
+    <img src="images/customerslide.jpg" />
+    <img src="images/cart.jpg" />
+
+</div>
+
+
+<div class="pagers_wrap group">
+    <div class="pagers">
+
+    </div>
+</div>
+
+<div id="sobre" class="buffer"></div>
+
+<header class="runner">
+    <h2>Sobre Nosotros</h2>
+</header>
+
+<div class="team-content">
+   
+    <div class="row">
+        <div class="large-4 columns">
+            <h1 class="main-title">Quienes Somos <i class="fa fa-star"></i></h1>
+
+            <p>
+            Sikmaz Service EIRL “TodoTintas” es una empresa familiar loretana con más de una década de experiencia en Servicio de Recargas y Venta de Cartuchos de Tintas, Tóner y Cintas para impresoras de todas las marcas. Nuestro objetivo diario es que nuestros clientes obtengan excelentes trabajos de impresión, con calidad y cantidad, sin pagar de más.
+            </p>
+
+            <div class="hidden">
+            <p>
+            Ofrecemos en venta una amplia variedad de cartuchos originales y compatibles de las marcas más conocidas como HP, Canon, Epson, Kyocera, etc., sin embargo desde nuestros inicios, nos hemos especializado en el Servicios de Recargas de Cartuchos.
+            </p>
+
+            <p>
+            El Servicio de Recarga consiste en rellenar o reemplazar el insumo agotado de su cartucho de impresora con insumo completamente nuevo. Dependiendo de su tipo de impresora, el insumo puede ser tinta, tóner o cintas, usados en impresoras de inyección de tinta (inkjet), impresoras láser e impresoras matriciales, y también recarga de cartuchos usados en impresoras multifuncionales, máquinas de fax, fotocopiadoras y hasta plotters!
+            </p>
+
+            <p>
+            Luego de más de una década de entrenamiento y trabajo con cartuchos de todo tipo de fabricantes, en 2010 lanzamos nuestra propia línea de cartucho de tóner ensamblados en ‘TodoTintas’.
+            </p>
+
+            <p>
+            La preferencia de nuestro público nos obliga a mantener y seguir mejorando nuestros estándares de calidad. Es por ello que, brindar un servicio con garantía de satisfacción al 100%, es parte de la mentalidad y del ADN de todo asesor de cartuchos de impresoras ‘TodoTintas’.
+            </p>
+
+            <p>
+            Visítenos en Calvo de Araujo 702. Tráiganos sus cartuchos, incluyendo sus problemas de impresión, y gustosamente nuestros Asesores de Cartuchos ‘TodoTintas’ le ayudará a resolverlos y le asesorará para que usted encuentre la mejor solución técnica y económica, con seguridad que de todas maneras saldrá satisfecho. Esa es nuestra misión.
+            </p>
+            </div>
+            
+            <a href="" class="read_more arrow-down">
+                Leer Mas
+            </a>
+            
+        </div>
+        <div class="large-4 columns">
+            
+            <h1 class="main-title">Breve Historia <i class="fa fa-cogs"></i></h1>
+            <p>
+                En 1997, Elza Bardales y su familia fundaron Sikmaz Service EIRL ‘TodoTintas’, ofreciendo servicios de digitación computarizada. Notamos rápidamente los altísimos costos de cartuchos de tintas para impresoras pues en Iquitos solo se vendían cartuchos originales. Por eso, en el 2001, luego de un periodo de investigación y entrenamiento, fuimos los primeros en atrevernos a ofrecer el servicio de recarga de cartuchos de tintas a precios súper económicos. Nuestros servicios permitirían a las familias loretanas un ahorro de hasta el 60%. El público adoró el nuevo concepto. Al éxito de nuestro servicio de recarga con garantía agregamos la venta de cartuchos originales y compatibles, y en el 2010 lanzamos nuestro producto con gran éxito nuestro producto bandera: Tóner para Impresora Láser marca ‘TodoTintas’.
+           
+            </p>
+
+            <p>
+     Haber sido los pioneros en servicio de recargas, nos obliga a mantener y superar continuamente nuestros conocimientos e instaurar una política de capacitación permanente de nuestro personal.
+            </p>
+           
+           <!--   <a href="" class="read_more arrow-down">
+                Leer Mas
+            </a> -->
+
+        </div>
+        
+        <div class="large-4 columns equipo">
+            <h1 class="main-title">Nuestro Equipo <i class="fa fa-users"></i></h2>
+              <section class="row">
+        
+        <article class="small-6 columns">
+            <img src="images/elza.jpg"/>    
+            <div class="medium-12 columns">
+                <h2>Elza Bardales</h2>
+
+                <!--
+                <a href="#openModal" class="button tiny">Ver Mas</a>
+                -->
+                
+                <a href="#openModal" class="button tiny">Ver Mas</a>
+
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close" class="close"> close X</a>
+                        <h2>Elza Bardales</h2>
+                        <img src="images/elza.jpg"/>
+                        <p>
+                            La ‘Señora Elzita’ es fundadora y gerente propietaria de ‘TodoTintas’. Durante gran parte de su vida trabajó como Secretaria de Gerencia y Asesora de Ventas, experiencias que le sirvieron para aplicarlo en el manejo de su propia empresa familiar y ganarse con su carisma la simpatía de los clientes que visitan nuestra tienda.
+                            Su pasatiempo favorito: Viajar y visitar a sus hijas Zori y Sisi.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--
+            <div class="medium-12 columns">
+            
+                <p>
+                La ‘Señora Elzita’ es fundadora y gerente propietaria de ‘TodoTintas’. Durante gran parte de su vida trabajó como Secretaria de Gerencia y Asesora de Ventas, experiencias que le sirvieron para aplicarlo en el manejo de su propia empresa familiar y ganarse con su carisma la simpatía de los clientes que visitan nuestra tienda.
+                Su pasatiempo favorito: Viajar y visitar a sus hijas Zori y Sisi.
+                </p>
+            
+            </div>
+            -->
+        </article>
+
+         <article class="small-6 columns">
+            <img src="images/karina.jpg"/>    
+            <div class="medium-12 columns">
+                <h2>Karina Usuriaga</h2>
+                
+                <a href="#karinaModal" class="button tiny">Ver Mas</a>
+                <div id="karinaModal" class="modalDialog">
+                    <div>
+                        <a href="#close" class="close"> close X</a>
+                        <h2>Karina Usuriaga</h2>
+                        <img src="images/karina.jpg"/>
+                        <p>
+                           ‘Karo’ es Administradora de Empresas de profesión especializada en Hotelería y Turismo. Su experiencia y talento para manejar nuestras relaciones con proveedores, manejo de inventarios y atención al cliente es sin duda una combinación ideal para su éxito como Administradora de Tienda. Como todos sus demás compañeros, Karo también es experta en recargas.
+Su pasatiempo favorito: liderar la barra en los partidos de vóley que juega su hijita, Helena Nicole.
+                        </p>
+                </div>
+
+            </div>
+            <div class="medium-12 columns">
+                <!--
+                <p>
+               ‘Karo’ es Administradora de Empresas de profesión especializada en Hotelería y Turismo. Su experiencia y talento para manejar nuestras relaciones con proveedores, manejo de inventarios y atención al cliente es sin duda una combinación ideal para su éxito como Administradora de Tienda. Como todos sus demás compañeros, Karo también es experta en recargas.
+Su pasatiempo favorito: liderar la barra en los partidos de vóley que juega su hijita, Helena Nicole.
+                </p>
+                -->
+            </div>
+
+        </article>
+        
+ 
+    </section>
+    <section class="row">
+        
+    </section>
+    <section class="row">
+        <article class="small-6 columns">
+            <img src="images/Pablo.jpg" height="140" width="117" />
+            <div class="medium-12 columns">
+                <h2>Pablo Vargas</h2>
+               
+                <a href="#magaliModal" class="button tiny">Ver Mas</a>
+                <div id="magaliModal" class="modalDialog">
+                    <div>
+                        <a href="#close" class="close"> close X</a>
+                        <h2>Pablo Vargas</h2>
+                        <img src="images/Pablo.jpg" height="140" width="117" />
+                        <p>
+                             Pablo se desempeña como técnico de remanufacturas y tiene una facilidad fascinante para el aprendizaje de las nuevas tecnologías de recargas en las que recibe entrenamiento constante. Gracias a Pablo nuestros stocks de cartuchos de toner TodoTintas siempre están al día y superando controles de calidad. Pablo no deja salir ni un toner de su area de trabajo sin su respectiva prueba de impresión. Para Pablo no hay horas lentas pues siempre está aprendiendo algo curioso y atento para asistir a sus demás compañeros de la tienda. Su pasatiempo favorito: retiros espirituales y pasar tiempo con su esposa y su bebe.
+
+                        </p>
+                </div>
+
+            </div>
+            <div class="medium-12 columns">
+                <!--
+                <p>
+               Maga es colaboradora part-time de la tienda especializada en servicio de recarga de tintas y facturación. Maga es una muy querida profesora de Educación Inicial de profesión. Siempre está sonriente para atender a los clientes y a la orden al teléfono para brindar información, resolución de consultas y atención de pedidos. Contar con el expertise y profesionalismo de Maga en horas punta, cuando de pronto se acumulan los pedidos, es un apoyo invalorable.
+Su pasatiempo favorito: Bailar y ver películas animadas de Disney con dos amores: Alexander y Angie Viviana.
+                </p>
+                -->
+            </div>
+
+        </article>
+
+        <article class="small-6 columns">
+            <img src="images/Morelia.jpg" height="140" width="117" />
+            <div class="medium-12 columns">
+                <h2>Morelia Correa</h2>
+                
+                <a href="#moreliaModal" class="button tiny">Ver Mas</a>
+                <div id="moreliaModal" class="modalDialog">
+                    <div>
+                        <a href="#close" class="close"> close X</a>
+                        <h2>Morelia Correa</h2>
+                        <img src="images/Morelia.jpg" height="140" width="117" />
+                        <p>
+                             Morelia es nuestra hábil y risueña colega asistente de tienda. El apoyo de Morelia es invalorable en horas punta, asegurándose de ejecutar y despachar recargas correctamente, con las medidas de tinta adecuada para cada modelo de cartucho y cumpliendo nuestros protolocos de servicio al cliente en tiempo récord. Con mucha gracia, Morelia asiste a la Administración en procesos de facturación y atención al cliente asi como en el mantenimiento del local y equipos en condiciones impecables y a la temperatura adecuada que requieren nuestros insumos de toners y tintas. Morelia disfruta de escuchar musica cristiana con arreglos musicales modernos. 
+                        </p>
+                </div>
+
+            </div>
+            <div class="medium-12 columns">
+                <!--
+                <p>
+              Elvis se desempeña como Técnico Especialista en Re-manufacturas y tiene una facilidad fascinante para el aprendizaje de las nuevas tecnologías de recargas en las que recibe entrenamiento constante. Gracias a Elvis nuestros stocks de cartuchos re-manufacturados ‘TodoTintas’ siempre están al día y con su respectiva prueba de impresión, a satisfacción de nuestros clientes. Para Elvis no hay ‘horas muertas’, pues siempre está motivado y presto para asistir a sus demás compañeros de la tienda.  
+Su pasatiempo favorito: Estudios Bíblicos y escuchar hermosos cánticos de alabanzas.
+ 
+                </p>
+            -->
+            </div>
+        </article>
+        
+        <article class="medium-6 columns">
+            <div class="medium-4 columns">
+                
+            </div>
+        </article>
+    </section>
+        </div>
+    </div>
+
+  
+</div>
+<!--
+<div class="runner-content">
+   
+    <section class="row">
+        
+    </section>
+    
+</div>
+
+<div class="dark-content">
+    <div class="row">
+       
+    </div>
+</div>
+-->
+<div id="productos" class="buffer"></div>
+<header class="runner">
+    <h2>Productos Y Servicios</h2>
+</header>
+
+<div class="row runner-content">
+    <div class="medium-4 columns">
+        <h1 class="main-title">Cartuchos De Tinta</h1>
+        <img src="images/tinta-cart.jpg"/>
+        <p>
+                       Un cartucho de tinta o cartucho de inyección de tinta es un componente sustituible de una
+
+impresora que contiene la tinta y, frecuentemente también el propio cabezal de impresión que 
+
+proyecta la tinta en el papel durante la impresión. Cada cartucho de tinta contiene uno o más 
+
+depósitos independientes de tinta. Algunos fabricantes añaden además contactos electrónicos y 
+
+un chip que se comunica con la impresora.
+            </p>
+            <div class="hidden">
+            <p>
+            En TodoTintas encontrara una amplia variedad de cartuchos de tinta negro y en colores de las marcas
+
+más conocidas, incluyendo HP, Canon, Epson entre otras. Nuestro stock incluye cartuchos originales y 
+
+compatibles. En la mayoría de los casos los cartuchos originales son recargables, incluyendo aquellos 
+
+con chip.
+            </p>
+            <p>
+            Importante: Recuerde de evitar tocar con los dedos los contactos electrónicos de su cartucho al 
+
+colocarlo o sacarlo de su impresora. Más información aquí
+            </p>
+            </div>
+             <a href="" class="read_more arrow-down">
+                Leer Mas
+            </a>
+
+    </div>
+
+     <div class="medium-4 columns">
+        <h1 class="main-title">Cartuchos De Toner-Laser</h1>
+        <img src="images/laser-cart.jpg"/>
+
+         <p>
+           Un cartucho de toner es un componente sustituible de una impresora tipo laser. Las impresoras
+
+laser son muy eficientes, permiten imprimir texto o gráficos de alta calidad a notables 
+
+velocidades, tanto en negro como en colores. Para la impresión láser monocroma (blanco y 
+
+negro) se hace uso de un único del tóner. Si la impresión es en color es necesario contar con 
+
+cuatro (uno por cada color base, CMYK).
+        </p>
+    <div class="hidden">
+        <p>
+En TodoTintas encontrara una amplia variedad de cartuchos de tóner para impresoras, máquinas de fax,
+
+fotocopiadoras o maquinas multifuncionales (todo en uno). Nos especializamos en servicio de recarga 
+
+de las marcas más conocidas, incluyendo HP, Canon, Kyocera, Brother, Xerox entre otras. Nuestro stock 
+
+incluye cartuchos originales y compatibles. Consulte por cartuchos compatibles remanufacturados 
+
+TodoTintas que tiene la mejor relación calidad-precio para sus necesidades de impresión.  En la mayoría 
+
+de los casos los cartuchos de tóner originales son recargables, incluyendo aquellos con chip.
+        </p>
+        <p>
+        Importante: Recuerde de evitar tocar con los dedos los contactos electrónicos de su cartucho al 
+
+colocarlo o sacarlo de su impresora. Más información aquí.
+        </p>
+        </div>
+         <a href="" class="read_more arrow-down">
+                Leer Mas
+        </a>
+    </div>
+
+     <div class="medium-4 columns">
+        <h1 class="main-title">Cartuchos De Cinta-Matricial</h1>
+        <img src="images/cinta.jpg"/>
+        <p>
+        Los cartuchos de cinta son aquellos que se utilizan comúnmente en impresoras tipo matriciales
+
+(planilleras), cajas registradoras (facturación).
+        </p>
+        <p>
+En TodoTintas le ofrecemos servicio especializado de re-encintado, es decir, reemplazamos el mismo 
+
+metraje de su cinta original desgastada por una cinta nueva con tinte intacto, listo para volver a usarse 
+
+obteniendo excelente calidad en las impresiones de los facturas, boletas y tickets de venta, boletas de 
+
+pago, etc. Asimismo, vendemos cintas originales de las marcas Epson y Okidata. Consulte por el cartucho 
+
+de cinta de su máquina impresora.
+        </p>
+    </div>
+</div><!-- row -->
+
+<!--
+<div class="runner-content productos_runner">
+</div>
+-->
+
+<div id="consejos" class="buffer"></div>
+<header class="runner">
+    <h2>Consejos Utiles</h2>
+</header>
+
+<div class="row runner-content">
+    <div class="medium-4 columns">
+        
+                <h1 class="main-title">Usuarios de Cartuchos de Tinta</h1>
+                <img src="images/protect.jpg">
+                <a href="files/consejos_tintas.pdf" target="_blank" class="download">
+                    <i class="fa fa-download"></i> Leer Consejos
+                </a>
+                <!--
+                <p>
+                    La tinta además de imprimir, actúa también como lubricante del cabezal electrónico del cartucho. Algo de tinta de color es usado aun cuando solo imprima en color negro, y viceversa.
+                </p>
+                <div class="hidden">
+                <p>
+                Si se imprime cuando cualquiera de los colores se ha terminado, se puede destruir el cabezal por la fricción con el papel y la falta de tinta para lubricar. Incluido que los circuitos del cabezal se calientan para la operación de impresión y secado del impreso. Es por ello que muchas impresoras no permiten imprimir cuando uno de los colores de tinta se ha terminado, aun cuando no se esté usando dicho color.
+                </p>
+                <p>
+                Si imprime solo con un cartucho (ya sea negro o color), la tinta residual se secará y bloqueará permanentemente los inyectores de impresión. Aun asi, dependiendo del caso, algunas veces logramos resolver este problema recurrente, sin embargo la mayoría de veces el problema es irremediable y la única solución es que adquire un cartucho original.
+                </p>
+                </div>
+                 <a href="" class="read_more arrow-down">
+                    Leer Mas
+                </a>
+                -->
+        
+    </div>
+    <div class="medium-4 columns">
+         
+                <h1 class="main-title">Usuarios de Cartuchos de Toner Laser</h1>
+                <img src="images/toner.jpg" />
+                <a href="files/consejos_toners.pdf" target="_blank" class="download">
+                    <i class="fa fa-download"></i> Leer Consejos
+                </a>
+                <!--
+                <p>
+                Una impresora de uso continuo diario, como en una oficina o negocio, no debe apagarse y encenderse a cada rato. Es mejor dejarla encendida todo el día, el consumo de energía es muy pequeño. Así la impresora, con una regularidad pre-establecida envía una señal para circular la tinta en el cabezal, de esta manera los inyectores no se bloquean con tinta seca.
+                </p> 
+                <div class="hidden">  
+                <p>
+                Si se apaga y enciende la impresora muchas veces, automáticamente la impresora ejecutará una limpieza de cabezal, que consumira la tinta de su cartucho, ya sea original o recargado.
+                </p> 
+                <p>
+                Considerando que algunos cartuchos vienen solo con 3-7 ml de tinta, de ninguna manera es deseable gastar 2-3 ml de tinta por cada ciclo de limpieza de cabezal. Ya lo sabe, no se trata de que la recarga 'le dura poco', siga estos consejos y lograra un mejor rendimiento en sus recargas.
+                </p> 
+                <p>
+                Asimismo, el exceso de tinta de la limpieza de cabezal va a la felpa que está debajo de la impresora. Cuando la felpa se satura de tinta, la impresora deja de funcionar, y el servicio técnico  de mantenimiento es costoso. Por ello, apagar y encender  muy frecuentemente la impresora acorta la vida útil del cartucho y de la impresora.
+                </p>
+                <p>
+                    También, si se deja la impresora apagada por largos periodos de tiempo, la tinta se secará y bloqueará los inyectores del cabezal, por eso es recomendable encenderla de vez en cuando e imprimir una hoja para lubricar los inyectores. Lamentablemente la experiencia nos confirma que nada es perfecto en este mundo, hasta nosotros los humanos nos “oxidamos” si no hacemos actividad física o mental.
+                </p>
+                </div>
+                 <a href="" class="read_more arrow-down">
+                    Leer Mas
+                </a>
+                -->
+    </div>
+    <div class="medium-4 columns">
+       
+                <h1 class="main-title">Preguntas Frecuentes</h1>
+                <img src="images/recycle2.jpg">
+                <a href="files/preguntas.pdf" target="_blank" class="download">
+                    <i class="fa fa-download"></i> Leer Consejos
+                </a>
+                <!--
+                    <p>
+                     Cuando la impresora se apaga pasa por varias fases donde ejecuta cosas como limpiar tinta residual de los cabezales y  los cierra para que la tinta no los bloquee.
+                    </p>
+                    <div class="hidden">
+                    <p>
+                    Apagándola desde el estabilizador o desenchufándola de la pared pasa por alto los procedimientos de apagado normal.
+                    </p>
+                    
+                    <p>
+                    Para mayor información o asesoramiento en uso de la impresora y sus cartuchos de tinta, consultar con nosotros, que gustosamente le ayudaremos a sacar el mejor provecho de estos equipos y accesorios.
+                    </p>
+                    </div>
+                     <a href="" class="read_more arrow-down">
+                        Leer Mas
+                    </a>
+                -->
+    </div>
+</div>
+
+
+<!--
+<header class="runner">
+    <h2>Preguntas y Respuestas sobre Recargas</h2>
+</header>
+
+<div class="row">
+    <div class="medium-4 columns">
+    </div>
+    <div class="medium-4 columns">
+
+    </div>
+    <div class="medium-4 columns">
+
+    </div>
+</div>
+-->
+<!--
+<div class="runner-content">
+    <div class="row">
+        <h2>1. ¿Por qué los fabricantes de impresoras advierten contra los cartuchos recargados y/o compatibles?</h2>
+        <p>
+            Actualmente los fabricantes de marca, están vendiendo impresoras a precios bajísimos, por lo que probablemente  obtienen una ganancia mínima, o ninguna.
+        </p>
+        <p>
+        Para ellos el negocio muy rentable es vender cartuchos originales, que son de muy alto precio.
+        </p>
+        <p>
+        Para que el usuario de impresora no recurra a un servicio de recarga de cartucho de tinta, cinta o tóner laser, le advierten que si usa cartuchos recargados, o inclusive compatibles, su impresora se malogrará.
+    Lo anterior no es cierto de ninguna manera. Desde hace muchísimos años en todo el mundo existe el servicio de recarga de cartuchos de tinta, cinta y tóner laser, esto no ha causado problemas con las maquinas impresoras.
+        </p>
+        <p>
+        Además, no existe ningún impedimento legal para el uso de cartuchos recargados o compatibles, siempre que no usen el nombre de marca original propietaria.
+        </p>
+    </div>
+    <div class="row">
+        <h2>2. ¿Al utilizar cartuchos recargados pierdo la garantía de mi impresora?</h2>
+        <p>
+            Una sana recomendación a los compradores/usuarios de impresoras, por favor leer con detenimiento el “Certificado de Garantía”  que viene con su impresora. Encontrara que para que su garantía funcione debe cumplir gran cantidad de requisitos, muchas veces imposibles, y por lo mucho le ofrecen “soporte técnico”, que le dirá, “tiene que comprar tal o cual pieza de repuesto porque eso no está incluido en la garantía”. Si Ud. se da el trabajo de averiguar, perderá tiempo, porque la famosa pieza no existe en el mercado, quizá en el mercado de chatarra que no le garantiza nada (son más sinceros)
+Si su impresora se malogra, será por miles de motivos, pero con seguridad, no por cartuchos recargados o compatibles.
+        </p>
+       
+    </div>
+    <div class="row">
+        <p>
+            Si ofrece y cumple con la garantía, y sobre todo MUY BAJO PRECIO.
+Nuestro servicio de recarga de cartuchos de tinta, cinta y tóner laser, ofrece:
+        </p>
+        <ul>
+            <li>a. Esmerada y correcta atención al cliente</li>
+            <li>b. Personal, equipo y herramientas especializadas.</li>
+            <li>c. Experiencia de más de 10 años, PIONEROS y LÍDERES en la Región Loreto.</li>
+            <li>d. Si su cartucho recargados por nosotros no funciona, lo hacemos funcionar.</li>
+            <li>e.Si definitivamente no funciona, le devolvemos el dinero pagado por la recarga.</li>
+        </ul>
+        <p>
+    El cliente debe tener en cuenta que el cartucho es tecnología electrónica y como cualquier aparato electrónico llega su fin, por mal uso, por fatiga o vida útil de sus circuitos.
+        </p>
+
+        <p>
+        Tiene mas preguntas sin resolver? Contactenos, estamos para asistirlo
+        </p>
+    </div>
+</div>
+-->
+<!--
+<header class="runner" id="contacto">
+    <h2>CUIDADO DEL CARTUCHO DE TONER</h2>
+    <div class="row">
+    <div class="medium-4 columns">
+
+    </div>
+    <div class="medium-4 columns">
+
+    </div>
+    <div class="medium-4 columns">
+
+    </div>
+</div>
+</header>
+-->
+<!--
+<div class="runner-content">
+    <div class="row">
+        <ul>
+            <li>1.   Mantener su cartucho siempre a temperatura ambiente. No dejar el cartucho dentro de un vehículo o expuesto al sol, altas temperaturas exceden los niveles de seguridad y pueden deformar el plástico del cartucho</li>
+            <li>2.   Si no tiene conocimientos técnicos, no intente abrir el cartucho. Manipular de forma casera un cartucho defectuoso o sin tóner podría dañarlo mas y hacerlo inservible para recargas.</li>
+            <li>3.   Siempre guarde la caja y bolsa de embalaje para usarlos cuando lleve su cartucho para recarga. Si no tiene la caja y bolsa, protéjalo con una envoltura a prueba de luz, como por ejemplo con un  periódico.</li>
+            <li>4.   Nunca exponga el cartucho a la luz y menos al sol, esto malogra principalmente y definitivamente el rodillo de impresión (rodillo de color).</li>
+            <li>5.   No deje por mucho tiempo el cartucho vacio, hágalo recargar lo más pronto.</li>
+            <li>6.   No permitir que su impresora acumule polvo u otras partículas de basura. Frecuentemente como sea necesario, saque el cartucho límpielo con cuidado  con un trapo, lo mismo a la cavidad donde se aloja el cartucho.</li>
+            <li>7.   Usamos lo actual en tecnología y procedimientos para realizar el trabajo de remanufactura, recarga y mantenimiento de cartuchos de tóner laser. Nuestros técnicos han sido especialmente entrenados para usar estas tecnologías y en control de calidad. Por ello, nuestros servicios de recarga de tóner salen con prueba de impresión.</li>
+            <li>
+                8.   En TodoTintas, recargamos las principales marcas de cartuchos de tóner negro y color, como Hp, Canon, Epson, Samsung, Kyocera, incluyendo cartuchos de tóner para máquinas fotocopiadoras y multifuncionales.
+            </li>
+        </ul>
+    </div>
+</div>
+-->
+
+<div id="contacto" class="buffer"></div>
+<header class="runner">
+    <h2>Contactanos</h2>
+</header>
+
+<div class="runner-content">
+    <div class="row contact_area">
+            <a href="informes@todotintas.com.pe">
+                <i class="fa fa-envelope"></i> informes@todotintas.com.pe
+            </a>
+             <p>
+                Calvo de Araujo 702, Iquitos, Peru
+             </p>
+             <p>
+                Tlf. 65-221391
+             </p>
+             <p>
+                Horario de Atencion: <br>
+                    Lunes a Viernes de 8:00 a 1 pm y de 3:30 pm a 7:30 pm
+             </p>
+             <p>
+                Sabados de 8:30 a 12:30 y de 4 a 7 pm
+             </p>
+             <p>
+                Domingos Y Feriados: Cerrado
+             </p>
+             <p>
+                Encuentranos en <a target="_blank" href="https://www.facebook.com/TodoTintas.com.pe">
+                    <i class="fa fa-facebook"></i> Facebook
+                </a> 
+                <a target="_blank" href="https://plus.google.com/118391344097426736536/posts">
+                    <i class="fa fa-google-plus"></i> Google
+                </a> 
+                <a target="_blank" href="http://pe.linkedin.com/in/todotintasiquitos">
+                    <i class="fa fa-linkedin"></i> LinkedIn
+                </a>
+                <a target="_blank" href="https://www.google.com/maps/place/TodoTintas+-+Sikmaz+Service+EIRL/@-3.747504,-73.24912,15z/data=!4m2!3m1!1s0x0:0x152b92577c7e6746">
+                    <i class="fa fa-map-marker"></i> Google Maps
+                </a>
+             </p>
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15925.121415871372!2d-73.25036454498292!3d-3.7490028240655286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x152b92577c7e6746!2sTodoTintas+-+Sikmaz+Service+EIRL!5e0!3m2!1sen!2sus!4v1428467527129" width="100%" height="250" frameborder="0" style="border:0"></iframe>
+        
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jquery-cycle2/build/jquery.cycle2.js"></script>
+<script src="/js/brain.js"></script>
+</body>
+</html>
